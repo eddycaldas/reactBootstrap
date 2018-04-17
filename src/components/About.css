@@ -1,0 +1,28 @@
+.header-image {
+  width: 100%;
+  margin-top: -2em;
+  margin-bottom: 2em;
+}
+
+.about-profile-pic {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+#p-text {
+  text-align: center;
+  font-size: 130%;
+}
+#h3-text {
+  text-align: center;
+  font-size: 300%;
+}
+@media only screen and (max-width: 600px) {
+  #p-text {
+    text-align: center;
+    font-size: 80%;
+  }
+  #h3-text {
+    text-align: center;
+    font-size: 200%;
+  }
+}

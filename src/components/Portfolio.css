@@ -1,0 +1,45 @@
+.sidebar-section img {
+  width: 100%;
+  margin-bottom: 2em;
+}
+#p-text {
+  text-align: center;
+}
+#h2-text {
+  text-align: center;
+  font-size: 300%;
+}
+.main-section {
+  width: 100%;
+  /* padding: 0 1% 1% 1%; */
+}
+.show-grid {
+  margin: 5% 2% 2% 2%;
+}
+.shadow {
+  
+  -webkit-box-shadow: 9px 9px 18px -9px rgba(89,86,89,1);
+  -moz-box-shadow: 9px 9px 18px -9px rgba(89,86,89,1);
+  box-shadow: 9px 9px 18px -9px rgba(89,86,89,1);
+}
+#project-name {
+  color: black;
+  font-size: 120%;
+  text-align: center;
+}
+#project-p {
+  font-size: 90%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  #p-text {
+    text-align: center;
+    font-size: 80%;
+  }
+  #h3-text {
+    text-align: center;
+    font-size: 200%;
+  }
+}
